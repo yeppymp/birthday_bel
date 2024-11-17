@@ -14,6 +14,7 @@ body {
 h1 {
   font-size: 3em;
   color: #2c3e50;
+  margin-bottom: 8px;
 }
 
 p {
@@ -21,7 +22,7 @@ p {
   color: #34495e;
 }
 
-button {
+button, a {
   padding: 10px 20px;
   font-size: 1.2em;
   background-color: #ff4081;
@@ -30,6 +31,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
+  text-decoration: none;
 }
 
 button:hover {
@@ -146,6 +148,20 @@ button:hover {
   }
 }
 
+.name {
+  margin-top: 0;
+  font-size: 2.25rem;
+  color: #ff4081;
+}
+#play-button {
+  position: fixed;
+  bottom: 96px;
+  left: 0;
+  right: 0;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .catch {
   margin-top: 20px;
   position: fixed;
